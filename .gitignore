@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Large or local datasets
+/data/raw/*
+/data/processed/*
+/data/external/*
+/outputs/*
+
+# Keep directory placeholders
+!/data/raw/.gitkeep
+!/data/processed/.gitkeep
+!/data/external/.gitkeep
+!/outputs/.gitkeep
+
+#Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Operating System
+.DS_Store
+Thumbs.db
